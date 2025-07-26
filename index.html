@@ -1,0 +1,469 @@
+<!DOCTYPE HTML>
+<!--
+    Data Analyst Portfolio by Gary
+    Based on Massively template by HTML5 UP
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gary's Data Analytics Portfolio</title>
+    <meta name="description" content="Gary’s Data Analytics Portfolio – SQL, Python, Power BI, data viz projects from a Dublin-based analyst." />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Gary’s Data Analytics Portfolio" />
+    <meta property="og:description" content="Turning raw data into actionable insights—SQL, Python, Power BI projects." />
+    <meta property="og:image" content="images/social-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Gary Gildea",
+      "jobTitle": "Data Analyst",
+      "url": "https://your-domain.com",
+      "sameAs": [
+        "https://linkedin.com/in/garygildea",
+        "https://github.com/gary-analytics"
+      ]
+    }
+    </script>
+
+    <!-- Custom Overrides -->
+    <style>
+      /* Remove italics and left-align featured project paragraphs */
+      article#featured-project.post.featured .major p {
+        font-style: normal;
+        text-align: left;
+      }
+      /* Center & cap featured image */
+      article#featured-project.post.featured .image.fit img {
+        display: block;
+        max-width: 600px;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+      }
+      /* Skip-link styling (hidden until focused) */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #000;
+        color: #fff;
+        padding: 8px;
+        z-index: 100;
+        transition: top 0.3s;
+      }
+      .skip-link:focus {
+        top: 0;
+      }
+
+      /* ----- Collapse ALL extra spacing between Featured Project and Projects List ----- */
+
+      /* Remove bottom spacing on the featured project article */
+      article#featured-project {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      /* Remove top spacing on the projects list section */
+      #projects.posts {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <div id="wrapper" class="fade-in" role="banner">
+
+      <!-- Intro -->
+      <div id="intro">
+        <h1>Gary's<br />Data Analytics Portfolio</h1>
+        <p>
+          Welcome!<br />
+          I am Gary,&nbsp; a data analyst specialising in turning raw data into actionable
+          insights.<br />
+          Scroll down to explore my projects,&nbsp; skills,&nbsp; and contact information.
+        </p>
+        <ul class="actions">
+          <li>
+            <a href="#main" class="button icon solid solo fa-arrow-down scrolly">Explore</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Nav -->
+      <nav id="nav" aria-label="Main navigation">
+        <ul class="links">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#featured-project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a target="_blank" rel="noopener" href="https://linkedin.com/in/garygildea" class="icon brands fa-linkedin">
+              <span class="label">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener" href="https://github.com/gary-analytics" class="icon brands fa-github">
+              <span class="label">GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <main id="main" role="main">
+        <!-- About Section -->
+        <section id="about" class="wrapper style1 special fade-up">
+          <div class="inner" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2>About Me</h2>
+            <p>
+              I’m a Dublin-based Data Analyst dedicated to turning data into clear,
+              actionable insights. Formerly at Elephant’s Don’t Forget, Fenergo and PwC
+              Ireland, I specialise in SQL, Python, Power BI and data visualisation.
+              After leaving Elephant’s Don’t Forget in 2024, I took a sabbatical to
+              deepen my skills in advanced analytics and machine-learning techniques. I
+              hold a BSc in Mathematics &amp; Applied &amp; Computational Mathematics
+              from UCD and certifications in Artificial Intelligence, Power BI Desktop,
+              and MySQL for Data Analytics.
+            </p>
+          </div>
+        </section>
+
+        <!-- Featured Project -->
+        <article id="featured-project" class="post featured">
+          <header class="major">
+            <h2>Planning Permission Machine Learning Project</h2>
+            <a
+              href="https://github.com/Gary-Analytics/Planning_Permission_Machine_Learning_Project/tree/main"
+              class="image fit"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="images/Planning_Permission_ML_project.png"
+                alt="Planning Permission Machine Learning Project"
+                loading="lazy"
+              />
+            </a>
+            <p>
+              This project leverages historical decision data from over 42,000 planning
+              applications submitted to Ashfield District Council (UK) between 1974 and
+              2020. The aim was to build a predictive model that could accurately
+              forecast whether future planning applications would be approved or
+              refused.
+            </p>
+            <p>
+              The project involved an extensive data pipeline, starting with exploratory
+              analysis, rigorous data cleaning, and sophisticated feature engineering.
+              Notably, it incorporated text clustering techniques to handle diverse
+              application descriptions and geocoding methods to extract meaningful
+              spatial insights.
+            </p>
+            <p>
+              Through exploratory visualisations, trends and patterns were identified,
+              highlighting temporal shifts and geographic influences on planning
+              outcomes. Baseline modelling using logistic regression and decision trees
+              provided initial predictive insights, achieving moderate accuracy but
+              identifying clear opportunities for improvement.
+            </p>
+            <p>
+              This project was part of my assessment to obtain the Professional Diploma
+              in Artificial Intelligence from Dublin Business School.
+            </p>
+            <p>
+              <strong>Part 1:</strong>
+              <a
+                href="https://drive.google.com/file/d/1sO4r_kJzZ1Np_QctIlEMuOUAS1Buf8QG/view?usp=drive_link"
+                target="_blank"
+                rel="noopener"
+                >Exploring a suitable social problem that could benefit from machine
+                learning</a
+              >
+            </p>
+            <p>
+              <strong>Part 2:</strong>
+              <a
+                href="https://drive.google.com/file/d/10PXHsW2JX33HZRiEqEQ4QKG1FiXK7xnM/view?usp=drive_link"
+                target="_blank"
+                rel="noopener"
+                >Performing EDA and building Machine Learning Models on the data</a
+              >
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/Gary-Analytics/Planning_Permission_Machine_Learning_Project/tree/main"
+                  class="button"
+                  target="_blank"
+                  rel="noopener"
+                >View on Github</a>
+              </li>
+            </ul>
+          </header>
+        </article>
+
+        <!-- Projects List -->
+        <section id="projects" class="posts">
+          <!-- Bank Churn Analytics Dashboard -->
+          <article>
+            <header><h3>Bank Churn Analytics Dashboard</h3></header>
+            <a
+              href="https://app.powerbi.com/view?r=eyJrIjoiYjcwYzk2ODgtZDA2NS00MTdiLThlYWEtN2UxY2YxMjczOGQzIiwidCI6ImI0M2QzZjNlLWUyYTQtNDU5ZS1hMjc2LTM5MGYxZTM2YzBjZSIsImMiOjh9"
+              class="image fit"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="images/bank_churn_dashboard.png"
+                alt="Bank Churn Analytics Dashboard"
+                loading="lazy"
+              />
+            </a>
+            <p>
+              Interactive dashboard analysing customer churn across France, Germany &amp;
+              Spain, with KPI cards, geographic &amp; demographic breakdowns, and trend
+              analyses to pinpoint high-risk segments.
+            </p>
+            <p>
+              <strong>Data Source:</strong>
+              <a
+                href="https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&tags=Finance"
+                target="_blank"
+                rel="noopener"
+                >Maven Analytics Sample Datasets</a
+              >
+            </p>
+            <p>
+              Building this dashboard was part of my IBAT Data Analytics Diploma 2025
+              assessment. I have included a link to view my write-up for this project
+              which includes a detailed explanation of how I cleaned and transformed
+              the data in Power Query.
+            </p>
+            <p>
+              <strong>Project Document:</strong>
+              <a
+                href="https://drive.google.com/file/d/1zpI4um-4RNXMWV2rQyEVLoCFAkzDPBn/view?usp=drive_link"
+                target="_blank"
+                rel="noopener"
+                >Bank Churn Assignment</a
+              >
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiYjcwYzk2ODgtZDA2NS00MTdiLThlYWEtN2UxY2YxMjczOGQzIiwidCI6ImI0M2QzZjNlLWUyYTQtNDU5ZS1hMjc2LTM5MGYxZTM2YzBjZSIsImMiOjh9"
+                  class="button"
+                  target="_blank"
+                  rel="noopener"
+                >View Dashboard</a>
+              </li>
+            </ul>
+          </article>
+          <!-- HR Analytics Dashboard Project -->
+          <article>
+            <header><h3>HR Analytics Dashboard</h3></header>
+            <a
+              href="https://app.powerbi.com/view?r=eyJrIjoiOTZjOGU5MjgtYzU3ZS00NmFjLWJmZTctOTc3MjRiNGM0NTU5IiwidCI6ImI0M2QzZjNlLWUyYTQtNDU5ZS1hMjc2LTM5MGYxZTM2YzBjZSIsImMiOjh9"
+              class="image fit"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="images/hr_dashboard.png"
+                alt="HR Analytics Dashboard"
+                loading="lazy"
+              />
+            </a>
+            <p>
+              Developed an interactive Power BI dashboard that tracks headcount,
+              attrition totals and rates, and breaks down departures by gender, age
+              band, education level, salary bracket, tenure and job satisfaction
+              score, enabling HR teams to instantly spot high-risk groups and tailor
+              retention interventions.
+            </p>
+            <p>
+              <strong>Data Source:</strong>
+              <a
+                href="https://www.analystbuilder.com/courses/microsoft-power-bi-desktop-for-business-intelligence"
+                target="_blank"
+                rel="noopener"
+                >Analyst Builder Power BI course</a
+              >
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiOTZjOGU5MjgtYzU3ZS00NmFjLWJmZTctOTc3MjRiNGM0NTU5IiwidCI6ImI0M2QzZjNlLWUyYTQtNDU5ZS1hMjc2LTM5MGYxZTM2YzBjZSIsImMiOjh9"
+                  class="button"
+                  target="_blank"
+                  rel="noopener"
+                >View Dashboard</a>
+              </li>
+            </ul>
+          </article>
+          <!-- US Household Income SQL Project -->
+          <article>
+            <header><h3>US Household Income SQL Project</h3></header>
+            <a
+              href="https://github.com/Gary-Analytics/US_Household_Income_SQL_Project/blob/main/US%20Household%20Income%20Project.sql"
+              class="image fit"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="images/US_income_SQL_project.png"
+                alt="US Household Income SQL Project"
+                loading="lazy"
+              />
+            </a>
+            <p>
+              Performed MySQL data cleaning on a U.S. household income dataset – 
+              including fixing headers, removing duplicate records, standardising state 
+              and place names, and correcting Type entries. Then conducted exploratory 
+              analysis by joining income figures with statistical summaries, filtering 
+              out zero-value entries, and uncovering key insights such as top-earning 
+              states and cities,  and income disparities across area types.
+            </p>
+            <p>
+              <strong>Data Source:</strong>
+              <a
+                href="https://www.analystbuilder.com/courses/mysql-for-data-analytics"
+                target="_blank"
+                rel="noopener"
+                >Analyst Builder MySQL for DA course</a
+              >
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/Gary-Analytics/US_Household_Income_SQL_Project/blob/main/US%20Household%20Income%20Project.sql"
+                  class="button"
+                  target="_blank"
+                  rel="noopener"
+                >View Project</a>
+              </li>
+            </ul>
+          </article>
+          <!-- World Life Expectancy SQL Project -->
+          <article>
+            <header><h3>World Life Expectancy SQL Project</h3></header>
+            <a
+              href="https://github.com/Gary-Analytics/Data_Projects/blob/main/WorldLifeExpectancyProject.sql"
+              class="image fit"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="images/wle_SQL_project.png"
+                alt="World Life Expectancy SQL Project"
+                loading="lazy"
+              />
+            </a>
+            <p>
+              Performed MySQL data cleaning on a global life-expectancy dataset,
+              including backing up the original table, removing duplicate records, and
+              imputing missing status and life-expectancy values. Then conducted
+              exploratory analysis to surface key insights such as lifespan gains,
+              GDP–life expectancy correlations, development-status comparisons, and
+              rolling mortality trends.
+            </p>
+            <p>
+              <strong>Data Source:</strong>
+              <a
+                href="https://www.analystbuilder.com/courses/mysql-for-data-analytics"
+                target="_blank"
+                rel="noopener"
+                >Analyst Builder MySQL for DA course</a
+              >
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/Gary-Analytics/Data_Projects/blob/main/WorldLifeExpectancyProject.sql"
+                  class="button"
+                  target="_blank"
+                  rel="noopener"
+                >View Project</a>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- Contact Section -->
+        <footer id="contact" style="text-align: center;">
+          <section>
+            <h2 style="margin-bottom: 1.5em;">GET IN TOUCH</h2>
+            <section class="split contact">
+              <section>
+                <h3>EMAIL</h3>
+                <p>
+                  <a target="_blank" rel="noopener" href="mailto:garygildea7@gmail.com"
+                    >garygildea7@gmail.com</a
+                  >
+                </p>
+              </section>
+              <section>
+                <h3>LINKEDIN</h3>
+                <p>
+                  <a target="_blank" rel="noopener" href="https://linkedin.com/in/garygildea"
+                    >linkedin.com/in/garygildea</a
+                  >
+                </p>
+              </section>
+              <section>
+                <h3>GITHUB</h3>
+                <p>
+                  <a target="_blank" rel="noopener" href="https://github.com/gary-analytics"
+                    >github.com/gary-analytics</a
+                  >
+                </p>
+              </section>
+              <section>  
+                <h3>LOCATION</h3>
+                <p>Dublin, Ireland</p>
+              </section>
+            </section>
+          </section>
+        </footer>
+      </main>
+
+      <!-- Footer Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>&copy; 2025 Gary Data Analytics</li>
+          <li>
+            Design:
+            <a target="_blank" rel="noopener" href="https://html5up.net">HTML5 UP</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js" defer></script>
+    <script src="assets/js/jquery.scrollex.min.js" defer></script>
+    <script src="assets/js/jquery.scrolly.min.js" defer></script>
+    <script src="assets/js/browser.min.js" defer></script>
+    <script src="assets/js/breakpoints.min.js" defer></script>
+    <script src="assets/js/util.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
